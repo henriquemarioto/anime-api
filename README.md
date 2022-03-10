@@ -1,7 +1,8 @@
 <h1 align="center">
 	<img src="https://scontent.fbat1-1.fna.fbcdn.net/v/t1.18169-9/25660201_1538102879578655_255806531285803801_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeG8pA4K9HP3X9i17KwG2uJFxyMwh7xZz7bHIzCHvFnPtus8mxP2udaBp5sGpxOEI2vb87cFTHoWos3mJpyifYOa&_nc_ohc=eEChrTU56hQAX8bzecS&_nc_ht=scontent.fbat1-1.fna&oh=00_AT-T6quiIVTSjckXLTC-pyx6dCq1vwQ4q7sfsVfwGb2QEg&oe=624F5801" />
 </h1>
- <h2 align="cente>anime-api</h2>
+
+ <h2 align="center">anime-api</h2>
 
 *Api intermediária para consumir a AniAPI: https://aniapi.com/*
 
