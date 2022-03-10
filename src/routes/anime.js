@@ -7,10 +7,13 @@ router.get('/:title', async (req, res) => {
     .then(response => { 
         if(response.data.status_code !== 404){
             const dadosTratados = response.data.data.documents.map(item => {
+                console.log(item)
                 return {
+                    id: item.id,
                     name: item.titles.en,
                     description: item.descriptions.en,
-                    img: item.cover_image
+                    img: item.cover_image,
+                    start_date: item.start_date.slice(0, 10).split('-').reverse().join('/')
                 }
 
             })
