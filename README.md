@@ -15,7 +15,7 @@ Nessa api você pode:
 
 A API tem no total 3 endpoints, um para pesquisa por nome, um para obter 5 animes aleatórios e outro para obter um numero desejado de animes aleatórios. (A api só possui metodos GET)
 
-A url base da API é: [localhost:3000](localhost:3000)
+A url base da API é: [https://anime-api-kenzieacademy.herokuapp.com/](https://anime-api-kenzieacademy.herokuapp.com/)
 
 <hr>
 
@@ -23,7 +23,7 @@ A url base da API é: [localhost:3000](localhost:3000)
 
 `GET /anime/:nome - FORMATO DA RESPOSTA - STATUS 200`
 
-_ex: localhost:3000/anime/demon slayer_
+_ex: https://anime-api-kenzieacademy.herokuapp.com/anime/demon slayer_
 
 ```json
 [
@@ -49,7 +49,7 @@ _ex: localhost:3000/anime/demon slayer_
 
 `GET /random - FORMATO DA RESPOSTA - STATUS 200`
 
-_ex: localhost:3000/random_
+_ex: https://anime-api-kenzieacademy.herokuapp.com/random_
 
 ```json
 [
@@ -95,7 +95,7 @@ _ex: localhost:3000/random_
 
 `GET /random/:number - FORMATO DA RESPOSTA - STATUS 200`
 
-_ex: localhost:3000/random/20_
+_ex: https://anime-api-kenzieacademy.herokuapp.com/random/20_
 
 ```json
 [
